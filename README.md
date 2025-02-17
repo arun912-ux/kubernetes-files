@@ -36,14 +36,16 @@ This repository contains the necessary files to start a Kubernetes cluster using
     cd kubernetes
     ```
 
-* Install MetalLB from its directory:
+## Step 2: Installing Kubernetes required components
+
+* Install <strong>MetalLB</strong> from its directory:
     
     Change the address pool in the `addresspool.yml` file to match your network range. These addresses are used to assign IP addresses to the load balancer. 
     ```bash
     bash metallb/install.sh
     ```
 
-* Install Nginx Ingress Controller from its directory:
+* Install <strong>Nginx Ingress Controller</strong> from its directory:
     ```bash
     bash nginx-ingress-controller/install.sh
     ```
