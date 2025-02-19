@@ -1,0 +1,9 @@
+
+
+metrics:  ## @param metrics.enabled Enable exposing Controller statistics through prometheus
+  enabled: true
+
+ingressClassResource:   ## @param ingressClassResource.default Enable default Ingress class
+  default: true
+
+
