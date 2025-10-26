@@ -1,0 +1,21 @@
+
+controller:
+  image:
+    registry: docker.io
+    repository: bitnamilegacy/metallb-controller
+    tag: 0.15.2-debian-12-r7
+
+
+speaker:
+  image:
+    registry: docker.io
+    repository: bitnamilegacy/metallb-speaker
+    tag: 0.15.2-debian-12-r6
+
+
+frr:
+  image:
+    registry: docker.io
+    repository: bitnamilegacy/metallb-speaker
+    tag: 0.15.2-debian-12-r6
+

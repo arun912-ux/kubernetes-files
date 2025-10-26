@@ -1,4 +1,14 @@
 
+image:
+  registry: docker.io
+  repository: bitnamilegacy/nginx-ingress-controller
+  tag: 1.13.1
+
+defaultBackend:
+  image:
+    registry: docker.io
+    repository: bitnamilegacy/nginx
+    tag: 1.29.1
 
 metrics:  ## @param metrics.enabled Enable exposing Controller statistics through prometheus
   enabled: true
